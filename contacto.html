@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Play Station 3 videogames</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div id="menu-icon" class="menu-icon">☰</div>
+      <h1>Play Station 3 videogames</h1>
+      <nav id="menu" class="hidden">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Games</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="contact-form">
+        <h2>Déjanos tus datos</h2>
+        <form id="contact-form">
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Correo Electrónico:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Mensaje:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <label for="pais">País:</label>
+          <select id="pais" name="pais">
+            <option value="peru">Perú</option>
+            <option value="colombia">Colombia</option>
+            <option value="mexico">México</option>
+            <option value="argentina">Argentina</option>
+          </select>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+
+      <div class="contact-info">
+        <p>Teléfono: +51 912239828</p>
+        <p>Dirección: Av Wiesse 6. San Juan de Lurigancho, Lima, Perú</p>
+        <div class="mapa">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13128.615453442624!2d-76.98844185189294!3d-11.963371602474664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1755562020865!5m2!1ses!2spe"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
+        </div>
+      </div>
+
+      <div class="social-media">
+        <a href="https://www.facebook.com" target="_blank">Facebook</a>
+        <a href="https://www.twitter.com" target="_blank">Twitter</a>
+        <a href="https://www.instagram.com" target="_blank">Instagram</a>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
